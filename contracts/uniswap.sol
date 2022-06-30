@@ -1,7 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
-// https://uniswap.org/docs/v2/smart-contracts
+//https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/trading-from-a-smart-contract
+//https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/providing-liquidity
+
+import "./dork.sol";
 
 interface IUniswapV2Router {
   function getAmountsOut(uint amountIn, address[] memory path)
