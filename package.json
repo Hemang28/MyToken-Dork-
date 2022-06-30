@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "@openzeppelin/contracts": "^4.6.0",
-    "@truffle/hdwallet-provider": "^2.0.9"
+    "@openzeppelin/contracts": "^4.7.0",
+    "@truffle/hdwallet-provider": "^2.0.9",
+    "@uniswap/sdk": "^3.0.3",
+    "bn.js": "^5.2.1",
+    "ethereumjs-testrpc-sc": "^6.5.1-sc.1"
   }
 }
